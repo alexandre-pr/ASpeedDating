@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7611D18F-6E8E-499A-998E-D38BD71CBA1D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{7611D18F-6E8E-499A-998E-D38BD71CBA1D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ui_click" ID="{7DD67787-0C65-49EC-8CDC-1D7ABA2EDC3E}" ShortID="585053943">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8F284473-9CA0-4405-B2A7-0C73397469A2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{6808874D-D262-4BBB-939F-B4D60BA9E1DF}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ui_click" ID="{2B6C655D-9DFD-4829-9B43-1A3D7228D108}">
+							<Language>SFX</Language>
+							<AudioFile>ui\ui_click.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="656441236"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ui_click" ID="{2B6C655D-9DFD-4829-9B43-1A3D7228D108}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ui_hovered" ID="{44284E94-683B-4DB2-894F-D05D412DD20E}" ShortID="285778629">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{EAF5CF6A-1FE7-4EF5-9B3E-258EECF69549}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ui_hovered" ID="{5667F504-0328-4E20-B897-BE3E637C2C1B}">
+							<Language>SFX</Language>
+							<AudioFile>ui\ui_hovered.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="337921330"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ui_hovered" ID="{5667F504-0328-4E20-B897-BE3E637C2C1B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

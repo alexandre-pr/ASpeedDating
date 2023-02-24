@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A2BF3AE7-4F81-46B5-B7EA-0F94E9C50B60}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Sfx" ID="{A2BF3AE7-4F81-46B5-B7EA-0F94E9C50B60}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sfx_match" ID="{2D917FDA-01F9-4B1C-B9A7-ADFD7E3CFEA0}" ShortID="164084750">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F0C74C36-75DB-413C-8A7E-1B7E9996F7BC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UI" ID="{6808874D-D262-4BBB-939F-B4D60BA9E1DF}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_match" ID="{0D944190-DCA6-4E21-B3B4-B7F8A13CD34B}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_match.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="23091555"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_match" ID="{0D944190-DCA6-4E21-B3B4-B7F8A13CD34B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="sfx_matching" ID="{DAD6E006-AD85-4309-B857-38EAA95553F5}" ShortID="631499154">
+					<ChildrenList>
+						<Sound Name="sfx_matching_win" ID="{282DAC45-48B0-4476-89E8-5D953A537682}" ShortID="657284962">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_win" ID="{CCB49A2B-3643-44F9-9BE7-527AE5C75A8D}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_win.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="9484344"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_win" ID="{CCB49A2B-3643-44F9-9BE7-527AE5C75A8D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_matching_failure" ID="{2E1701B1-FF52-44FA-8FAA-5AB3479F640B}" ShortID="1025882122">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_broken_heart" ID="{67A5DE71-1F71-4B4B-B2CD-B6DABF93FFF2}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_broken_heart.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="421154490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_broken_heart" ID="{67A5DE71-1F71-4B4B-B2CD-B6DABF93FFF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_matching" ID="{FA92065F-C94E-426E-BD03-3E041FF47C48}" ShortID="210698932">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{6808874D-D262-4BBB-939F-B4D60BA9E1DF}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_match" ID="{EA312B6D-E2FD-4957-9941-AFC4BF497BCE}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_match.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="23091555"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_match" ID="{EA312B6D-E2FD-4957-9941-AFC4BF497BCE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<SwitchContainer Name="sfx_vacuum" ID="{E80D391B-F20B-4ACE-9C61-CFA7D31F3849}" ShortID="777432906">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{60AA7FBC-4A51-4CB0-A467-AF70E1D1F44F}" ShortID="963611238">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="idle_vacuum" ID="{14147127-9EC1-4E5E-91F1-0AA743823A93}" WorkUnitID="{0BA92D65-4443-4B5B-ABCE-B5C677F7825F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{58C48F27-7D5E-4188-A2F5-604D90B58218}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-50</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>50</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{5D6B7AFB-878A-44C4-BA2D-4459B3D41A40}" ShortID="809069047">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="gp_moving_vacuum" ID="{6C644258-238B-43F2-A4D8-5295521C470C}" WorkUnitID="{C8381F08-C597-4BBA-BE97-290C311D512A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A6DC3184-6F17-450B-8B3C-AB0DD8FFC183}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="classic" ID="{097DE03D-AE36-444A-989E-A7031A8E36F8}" WorkUnitID="{C4E64545-7197-4CB0-858A-294223438BF9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sfx" ID="{03861BD6-ACA3-43D2-93F7-FD74697EB70A}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="switch_vacuum" ID="{93DB1E6C-6644-4893-BC6D-F1A891D9E8CC}" WorkUnitID="{C4E64545-7197-4CB0-858A-294223438BF9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_vacuum_henry" ID="{C97C0FD3-2533-4DE0-B0CC-F80D800469D1}" ShortID="778917225">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_vacuum_henry" ID="{D4CE28CD-7BDE-4144-8914-FA30F718C56A}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_vacuum\sfx_vacuum_henry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="285555914"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_vacuum_henry" ID="{D4CE28CD-7BDE-4144-8914-FA30F718C56A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_vacuum_roomba" ID="{8038E562-8691-4A50-AA43-1A2A9DEEBA6B}" ShortID="824510589">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_vacuum_roomba" ID="{E73D5B1D-3154-494D-AA9F-43B8E2C355B3}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_vacuum\sfx_vacuum_roomba.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963428495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_vacuum_roomba" ID="{E73D5B1D-3154-494D-AA9F-43B8E2C355B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_vacuum_swiffer" ID="{19767179-EA40-48E7-94DC-493B43A24FA1}" ShortID="158708052">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_vacuum_swiffer" ID="{40975434-AE6C-42C8-A9BB-3F19EA3D57AE}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_vacuum\sfx_vacuum_swiffer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1010179017"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_vacuum_swiffer" ID="{40975434-AE6C-42C8-A9BB-3F19EA3D57AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_vacuum_classic" ID="{97CF4EAD-B1B8-46C5-AA7C-4679896708BF}" ShortID="889296627">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_vacuum_classic" ID="{0588DBC2-D2F9-4588-8F79-EB2947E55201}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_vacuum\sfx_vacuum_classic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1019661476"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_vacuum_classic" ID="{0588DBC2-D2F9-4588-8F79-EB2947E55201}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_vacuum_roomba" ID="{8038E562-8691-4A50-AA43-1A2A9DEEBA6B}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_vacuum_swiffer" ID="{19767179-EA40-48E7-94DC-493B43A24FA1}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_vacuum_classic" ID="{97CF4EAD-B1B8-46C5-AA7C-4679896708BF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="sfx_vacuum_henry" ID="{C97C0FD3-2533-4DE0-B0CC-F80D800469D1}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="henry" ID="{27048812-705A-49F6-8E65-A4711F22DFE3}"/>
+								<ItemList>
+									<ItemRef Name="sfx_vacuum_henry" ID="{C97C0FD3-2533-4DE0-B0CC-F80D800469D1}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="classic" ID="{097DE03D-AE36-444A-989E-A7031A8E36F8}"/>
+								<ItemList>
+									<ItemRef Name="sfx_vacuum_classic" ID="{97CF4EAD-B1B8-46C5-AA7C-4679896708BF}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="swiffer" ID="{364F1E42-787F-412E-9231-674C51E13474}"/>
+								<ItemList>
+									<ItemRef Name="sfx_vacuum_swiffer" ID="{19767179-EA40-48E7-94DC-493B43A24FA1}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="roomba" ID="{308FAEAD-C3D5-4E31-B434-06E7071C6BE3}"/>
+								<ItemList>
+									<ItemRef Name="sfx_vacuum_roomba" ID="{8038E562-8691-4A50-AA43-1A2A9DEEBA6B}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="sfx_transition_flower" ID="{4E85D7B6-C9EB-4640-8178-3D89F3F01DA7}" ShortID="466961457">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F3EB4A6F-29E1-4A76-97F7-B7F61366A81F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_transition" ID="{0401C603-2E1F-4738-AC5A-B30224D19F80}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_transition.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="889007000"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_transition" ID="{0401C603-2E1F-4738-AC5A-B30224D19F80}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="sfx_collision" ID="{09C22F27-0BE4-4D2B-95D9-FA93972DACC8}" ShortID="384337665">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7DAFC3BF-7E90-4871-9F06-02078AEDDCBD}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sfx" ID="{03861BD6-ACA3-43D2-93F7-FD74697EB70A}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sfx_collision-001" ID="{32858EFD-54BE-4EE4-BA22-2F8D80D504C3}" ShortID="378037709">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_collision-001" ID="{E9CF25AA-B3C1-4247-8573-079AEBA865F4}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_collision\sfx_collision-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="734138116"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_collision-001" ID="{E9CF25AA-B3C1-4247-8573-079AEBA865F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_collision-002" ID="{49E1645B-BCD3-4D6D-8A47-9CB0F0FA973D}" ShortID="144881229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_collision-002" ID="{2A7086B5-5DF1-4B61-9AC5-1102BA614824}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_collision\sfx_collision-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="145902288"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_collision-002" ID="{2A7086B5-5DF1-4B61-9AC5-1102BA614824}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_collision-003" ID="{C49DE38B-42DC-4D43-B13C-AF9CE684AE33}" ShortID="90341813">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_collision-003" ID="{96BC2846-AA97-4C13-8634-4CC75417BB2C}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_collision\sfx_collision-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="324019410"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_collision-003" ID="{96BC2846-AA97-4C13-8634-4CC75417BB2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_collision-004" ID="{ABA28E65-4C3E-4A59-BF32-1B1F2D083CA7}" ShortID="712498575">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_collision-004" ID="{3FB627FC-4C21-4AC6-BE45-180C0F8D8624}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_collision\sfx_collision-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="677464697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_collision-004" ID="{3FB627FC-4C21-4AC6-BE45-180C0F8D8624}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_collision-005" ID="{1A15FF71-04E2-41CC-A2A9-9254DD428055}" ShortID="78409670">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0875D7C-6EE6-4719-9F0E-D832F079AF6F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{102DD265-35B2-456B-B5C5-A63DDB63A007}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_collision-005" ID="{D1C10169-EC7E-476B-B011-5624F71DAB93}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_collision\sfx_collision-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="67716844"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_collision-005" ID="{D1C10169-EC7E-476B-B011-5624F71DAB93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

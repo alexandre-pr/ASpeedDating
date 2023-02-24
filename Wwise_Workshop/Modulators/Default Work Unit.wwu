@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0BA92D65-4443-4B5B-ABCE-B5C677F7825F}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{0BA92D65-4443-4B5B-ABCE-B5C677F7825F}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="idle_vacuum" ID="{14147127-9EC1-4E5E-91F1-0AA743823A93}" ShortID="625133639">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.25">
+							<RTPCList>
+								<RTPC Name="" ID="{642A27CF-9144-4153-94A8-FB4480147580}" ShortID="546837498">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="gp_moving_vacuum" ID="{6C644258-238B-43F2-A4D8-5295521C470C}" WorkUnitID="{C8381F08-C597-4BBA-BE97-290C311D512A}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F7B0C985-0177-4108-B5F1-5046E13DA545}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="10"/>
+						<Property Name="ModulatorScope" Type="int32" Value="2"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

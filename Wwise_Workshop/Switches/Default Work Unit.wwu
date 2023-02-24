@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4E64545-7197-4CB0-858A-294223438BF9}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{C4E64545-7197-4CB0-858A-294223438BF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="switch_vacuum" ID="{93DB1E6C-6644-4893-BC6D-F1A891D9E8CC}">
+					<ChildrenList>
+						<Switch Name="henry" ID="{27048812-705A-49F6-8E65-A4711F22DFE3}"/>
+						<Switch Name="swiffer" ID="{364F1E42-787F-412E-9231-674C51E13474}"/>
+						<Switch Name="roomba" ID="{308FAEAD-C3D5-4E31-B434-06E7071C6BE3}"/>
+						<Switch Name="classic" ID="{097DE03D-AE36-444A-989E-A7031A8E36F8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="switch_music" ID="{446B8F00-A4AE-4B0D-8CFA-0E77D8615B7C}">
+					<ChildrenList>
+						<Switch Name="background" ID="{607CE24E-4AAD-46E1-8E6A-9F9A0C4B9D08}"/>
+						<Switch Name="main_menu" ID="{F360AEF4-CCB7-4DB8-A36E-913BADBE50A6}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

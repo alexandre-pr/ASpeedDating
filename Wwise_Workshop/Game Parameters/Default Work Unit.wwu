@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C8381F08-C597-4BBA-BE97-290C311D512A}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C8381F08-C597-4BBA-BE97-290C311D512A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="gp_moving_vacuum" ID="{6C644258-238B-43F2-A4D8-5295521C470C}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="gp_ui" ID="{759A9E26-B382-4155-B3E8-7F57BFEF822A}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
