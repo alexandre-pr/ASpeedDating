@@ -113,6 +113,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="On_Date" ID="{ADD9A228-94E8-4A87-957F-D6319041D067}">
+					<ChildrenList>
+						<Action Name="" ID="{F3415AF4-8E71-4FFD-A156-515C7841830A}" ShortID="534532373">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gp_ui" ID="{759A9E26-B382-4155-B3E8-7F57BFEF822A}" WorkUnitID="{C8381F08-C597-4BBA-BE97-290C311D512A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Off_Date" ID="{62AB410E-836E-43CE-9DD8-B5FCAF83AA64}">
+					<ChildrenList>
+						<Action Name="" ID="{F2CF1B62-FDD0-485B-B8E8-2BF112E26C89}" ShortID="664106360">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gp_ui" ID="{759A9E26-B382-4155-B3E8-7F57BFEF822A}" WorkUnitID="{C8381F08-C597-4BBA-BE97-290C311D512A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
